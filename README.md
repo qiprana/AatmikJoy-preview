@@ -1,0 +1,19 @@
+# Aatmik Joy — Preview
+
+This repository hosts the **review-only** version of [Aatmik Joy](https://aatmikjoy.me/).
+
+The website source is maintained in [qiprana/AatmikJoy](https://github.com/qiprana/AatmikJoy), currently on branch `feature/today-self-care-planner`.
+
+A GitHub Actions workflow in this repository publishes that branch to GitHub Pages. This repository does **not** publish the production `main` branch or modify the live website.
+
+## Enable the preview
+
+1. Open **Settings → Pages** in this repository.
+2. Under **Build and deployment**, select **GitHub Actions** as the source.
+3. Open **Actions → Deploy Aatmik Joy preview → Run workflow** if it hasn't run automatically.
+4. Visit the deployment URL from the workflow or Settings → Pages.
+5. To use `preview.aatmikjoy.me`, configure it as the Pages custom domain and create the DNS CNAME record `preview → qiprana.github.io` with your DNS provider.
+
+The deployment workflow strips the production `CNAME` file and writes one for `preview.aatmikjoy.me`. It also adds `robots.txt` asking search engines not to index the preview.
+
+**Warning:** This is a public preview site. It is not password protected. Avoid entering sensitive private information while testing. The self-care planner saves data in your browser.
