@@ -39,3 +39,5 @@ Preview refresh: wordmark with waves, smaller hero title, removed homepage 'Take
 Preview refresh: reduced header wave mark and hero headline sizing across desktop, tablet and mobile.
 
 Preview refresh: centered logo/waves with stacked, significantly smaller hero headline and tagline.
+
+Preview refresh: refined tapered two-wave logo detail to match the supplied screenshot.
