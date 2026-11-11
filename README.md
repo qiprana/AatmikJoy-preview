@@ -31,3 +31,5 @@ Preview refresh: approved alternating sage (#E2ECDD) and warm ivory (#FFFCF6) ho
 Preview refresh: reduced header branding scale and softened hero and sage/ivory transitions for visual review.
 
 Preview refresh: original lightweight AatmikJoy text wordmark, no tagline or boxed artwork in the header.
+
+Preview refresh: reverted text-only header experiment to previous image logo.
