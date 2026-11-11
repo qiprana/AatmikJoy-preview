@@ -6,6 +6,10 @@ The website source is maintained in [qiprana/AatmikJoy](https://github.com/qipra
 
 A GitHub Actions workflow in this repository publishes that branch to GitHub Pages. This repository does **not** publish the production `main` branch or modify the live website.
 
+## Preview update
+
+The homepage visual refresh is available on the source feature branch. Preview deployment requested on November 10, 2026.
+
 ## Enable the preview
 
 1. Open **Settings → Pages** in this repository.
