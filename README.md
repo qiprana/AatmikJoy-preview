@@ -49,3 +49,5 @@ Preview Today layout: compact inspiration, expandable example picker, custom sel
 Today education preview: rotating Ayurvedic/Yogic daily insights and optional three-week pattern reflection, without changing the live site.
 
 Today preview education: explain gradual adjustment, why abrupt change can be hard to sustain, and caution about medically risky withdrawal.
+
+Preview layout repair: versioned Today CSS/JS URLs and a fallback for heading/cards to prevent stale unstyled page rendering.
