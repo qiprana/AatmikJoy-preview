@@ -51,3 +51,5 @@ Today education preview: rotating Ayurvedic/Yogic daily insights and optional th
 Today preview education: explain gradual adjustment, why abrupt change can be hard to sustain, and caution about medically risky withdrawal.
 
 Preview layout repair: versioned Today CSS/JS URLs and a fallback for heading/cards to prevent stale unstyled page rendering.
+
+Today preview studio (2026-11-11): private emotion flush, meditation/eye-rest/alternate-nostril practice timers with halfway nudges and end chime, opt-in emotional prompts, daily thought and saved journal.
