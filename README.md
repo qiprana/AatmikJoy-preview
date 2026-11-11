@@ -37,3 +37,5 @@ Preview refresh: reverted text-only header experiment to previous image logo.
 Preview refresh: wordmark with waves, smaller hero title, removed homepage 'Take a moment for yourself' button.
 
 Preview refresh: reduced header wave mark and hero headline sizing across desktop, tablet and mobile.
+
+Preview refresh: centered logo/waves with stacked, significantly smaller hero headline and tagline.
