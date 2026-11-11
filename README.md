@@ -8,7 +8,7 @@ A GitHub Actions workflow in this repository publishes that branch to GitHub Pag
 
 ## Preview update
 
-The homepage visual refresh is available on the source feature branch. Preview deployment requested on November 10, 2026.
+The homepage visual refresh is available on the source feature branch. Preview branch includes approved bright header logo and separate symbol asset.
 
 ## Enable the preview
 
@@ -21,3 +21,5 @@ The homepage visual refresh is available on the source feature branch. Preview d
 The deployment workflow strips the production `CNAME` file and writes one for `preview.aatmikjoy.me`. It also adds `robots.txt` asking search engines not to index the preview.
 
 **Warning:** This is a public preview site. It is not password protected. Avoid entering sensitive private information while testing. The self-care planner saves data in your browser.
+
+Preview refresh: approved bright AatmikJoy branding assets integrated into feature branch.
