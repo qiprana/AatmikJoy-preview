@@ -41,3 +41,5 @@ Preview refresh: reduced header wave mark and hero headline sizing across deskto
 Preview refresh: centered logo/waves with stacked, significantly smaller hero headline and tagline.
 
 Preview refresh: refined tapered two-wave logo detail to match the supplied screenshot.
+
+Preview Today page refined: suggested care and nature rhythms can be added to a personal plan; custom practices and self-reflection remain available.
