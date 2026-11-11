@@ -43,3 +43,5 @@ Preview refresh: centered logo/waves with stacked, significantly smaller hero he
 Preview refresh: refined tapered two-wave logo detail to match the supplied screenshot.
 
 Preview Today page refined: suggested care and nature rhythms can be added to a personal plan; custom practices and self-reflection remain available.
+
+Preview Today layout: compact inspiration, expandable example picker, custom self-care plan, single centering invitation, and private journal.
