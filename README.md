@@ -27,3 +27,5 @@ Preview refresh: approved bright AatmikJoy branding assets integrated into featu
 Preview refresh: home copy refined to preserve 'space' only for the purpose statement.
 
 Preview refresh: approved alternating sage (#E2ECDD) and warm ivory (#FFFCF6) homepage design; purpose and hero copy revised.
+
+Preview refresh: reduced header branding scale and softened hero and sage/ivory transitions for visual review.
