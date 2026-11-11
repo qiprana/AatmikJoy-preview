@@ -45,3 +45,5 @@ Preview refresh: refined tapered two-wave logo detail to match the supplied scre
 Preview Today page refined: suggested care and nature rhythms can be added to a personal plan; custom practices and self-reflection remain available.
 
 Preview Today layout: compact inspiration, expandable example picker, custom self-care plan, single centering invitation, and private journal.
+
+Today education preview: rotating Ayurvedic/Yogic daily insights and optional three-week pattern reflection, without changing the live site.
