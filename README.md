@@ -25,3 +25,5 @@ The deployment workflow strips the production `CNAME` file and writes one for `p
 Preview refresh: approved bright AatmikJoy branding assets integrated into feature branch.
 
 Preview refresh: home copy refined to preserve 'space' only for the purpose statement.
+
+Preview refresh: approved alternating sage (#E2ECDD) and warm ivory (#FFFCF6) homepage design; purpose and hero copy revised.
