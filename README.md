@@ -33,3 +33,5 @@ Preview refresh: reduced header branding scale and softened hero and sage/ivory 
 Preview refresh: original lightweight AatmikJoy text wordmark, no tagline or boxed artwork in the header.
 
 Preview refresh: reverted text-only header experiment to previous image logo.
+
+Preview refresh: wordmark with waves, smaller hero title, removed homepage 'Take a moment for yourself' button.
