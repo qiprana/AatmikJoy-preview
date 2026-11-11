@@ -23,3 +23,5 @@ The deployment workflow strips the production `CNAME` file and writes one for `p
 **Warning:** This is a public preview site. It is not password protected. Avoid entering sensitive private information while testing. The self-care planner saves data in your browser.
 
 Preview refresh: approved bright AatmikJoy branding assets integrated into feature branch.
+
+Preview refresh: home copy refined to preserve 'space' only for the purpose statement.
