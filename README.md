@@ -29,3 +29,5 @@ Preview refresh: home copy refined to preserve 'space' only for the purpose stat
 Preview refresh: approved alternating sage (#E2ECDD) and warm ivory (#FFFCF6) homepage design; purpose and hero copy revised.
 
 Preview refresh: reduced header branding scale and softened hero and sage/ivory transitions for visual review.
+
+Preview refresh: original lightweight AatmikJoy text wordmark, no tagline or boxed artwork in the header.
