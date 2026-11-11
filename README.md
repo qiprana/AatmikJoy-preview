@@ -47,3 +47,5 @@ Preview Today page refined: suggested care and nature rhythms can be added to a 
 Preview Today layout: compact inspiration, expandable example picker, custom self-care plan, single centering invitation, and private journal.
 
 Today education preview: rotating Ayurvedic/Yogic daily insights and optional three-week pattern reflection, without changing the live site.
+
+Today preview education: explain gradual adjustment, why abrupt change can be hard to sustain, and caution about medically risky withdrawal.
