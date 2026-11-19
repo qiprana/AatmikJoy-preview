@@ -69,3 +69,5 @@ Preview refresh (2026-11-18): softened the dark-green purpose section, unified A
 Preview refresh (2026-11-18): Home watercolor-to-purpose transition now uses pale sage matching the rest of the site, with readable deep-green headings instead of a dark olive overlay.
 
 Preview refinement (2026-11-18): Reflections topic filters moved beneath the centered introduction, enlarged for clearer navigation; search, presentation controls, card spacing and typography refined in the existing AatmikJoy palette, with original article links and JS behavior preserved.
+
+Preview refinement (2026-11-18): simplified Reflections cards to one accessible full-card link, removed repetitive read/source labels and arrows, and added an expandable Show more control (8 at a time) while preserving topic filters and search.
