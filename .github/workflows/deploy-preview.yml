@@ -38,6 +38,8 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           path: site
+      - name: Allow Pages artifact metadata to settle
+        run: sleep 15
       - name: Deploy website
         id: deployment
         uses: actions/deploy-pages@v4
