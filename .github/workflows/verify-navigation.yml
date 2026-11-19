@@ -41,7 +41,7 @@ jobs:
               page.on('console',msg=>{if(msg.type()==='error')console.error('CONSOLE:',msg.text())});
               await page.goto('http://127.0.0.1:8877/#/home',{waitUntil:'networkidle'});
               console.log('HOME title:',await page.title(),'URL:',page.url());
-              const visible=async id => {const yes=await page.locator(id).isVisible();console.log('VISIBLE',id,yes);if(!yes)throw new Error(id+' not visible')};
+              const visible=async id => {await page.locator(id).waitFor({state:'visible',timeout:5000});console.log('VISIBLE',id,true)};
               await visible('#page-home');
               for(const [label,id] of [['Explore','#page-explore'],['Reflections','#page-reflections'],['Connect','#page-connect'],['Products','#page-products'],['Home','#page-home']]){
                 await page.locator('#primary-nav').getByRole('link',{name:label,exact:true}).click({timeout:4000});
@@ -60,7 +60,7 @@ jobs:
               await mobile.goto('http://127.0.0.1:8877/#/home',{waitUntil:'networkidle'});
               await mobile.locator('#menu-toggle').click({timeout:4000});
               await mobile.locator('#primary-nav').getByRole('link',{name:'Explore',exact:true}).click({timeout:4000});
-              if(!await mobile.locator('#page-explore').isVisible())throw new Error('Mobile Explore not navigated');
+              await mobile.locator('#page-explore').waitFor({state:'visible',timeout:5000});
               console.log('PASS: desktop and mobile navigation, filters, story links, no JavaScript errors');
             } finally {
               await browser.close();
