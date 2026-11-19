@@ -26,6 +26,25 @@ jobs:
       - name: Download current review branch of AatmikJoy
         run: |
           git clone --depth 1 --branch feature/today-self-care-planner https://github.com/qiprana/AatmikJoy.git site
+      - name: Check navigation startup and link essentials
+        run: |
+          node --check site/assets/app.js
+          node --check site/assets/today.js
+          node <<'NODE'
+          const fs = require('node:fs');
+          const assert = require('node:assert/strict');
+          const js = fs.readFileSync('site/assets/app.js', 'utf8');
+          const html = fs.readFileSync('site/index.html', 'utf8');
+          assert(js.includes("$('.filter').forEach(button => button.addEventListener('click'"), 'Topic filters must use the multi-element selector');
+          assert(!js.includes("  $('.filter').forEach("), 'Fatal single-element selector bug has returned');
+          for (const id of ['page-home','page-explore','page-reflections','page-connect','page-products','page-today','reflection-grid','reflection-search','reflection-show-more','site-search-dialog','primary-nav','menu-toggle']) {
+            assert(html.includes('id="' + id + '"'), 'Missing required navigation UI element: ' + id);
+          }
+          for (const route of ['home','explore','reflections','connect','products']) {
+            assert(html.includes('href="#/' + route + '"'), 'Missing link: ' + route);
+          }
+          console.log('Navigation startup and required links passed.');
+          NODE
       - name: Prepare separate preview site
         run: |
           rm -f site/CNAME
