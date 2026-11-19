@@ -85,3 +85,5 @@ Preview refinement (2026-11-18): restore home hero watercolor to unfiltered orig
 Preview styling (2026-11-19): balanced homepage watercolor brightness to a gentle middle exposure and alternated white/pale-sage wellbeing cards while preserving the established soft chapter transitions.
 
 Preview visual adjustment (2026-11-19): gently lightened the original watercolor hero, cropped the chalky left edge, preserved the AatmikJoy logo, and kept only a small pale-sage fade along the bottom.
+
+Preview visual update (2026-11-19): raised the homepage watercolor brightness to 1.13 and softened contrast to 0.96 while retaining the established crop, text and short bottom blend.
