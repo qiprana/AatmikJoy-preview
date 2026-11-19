@@ -73,3 +73,5 @@ Preview refinement (2026-11-18): Reflections topic filters moved beneath the cen
 Preview refinement (2026-11-18): simplified Reflections cards to one accessible full-card link, removed repetitive read/source labels and arrows, and added an expandable Show more control (8 at a time) while preserving topic filters and search.
 
 Preview refinement (2026-11-18): reduced Reflections topic filter dimensions, font sizes, spacing and shadows to suit the understated editorial layout; functionality unchanged.
+
+Preview refinement (2026-11-18): reduced excessive vertical space after reflection article introductions and tightened opening-to-content spacing consistently on Explore, Connect, Reflections, and Products, preserving visual gradients and copy.
