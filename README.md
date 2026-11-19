@@ -77,3 +77,5 @@ Preview refinement (2026-11-18): reduced Reflections topic filter dimensions, fo
 Preview refinement (2026-11-18): reduced excessive vertical space after reflection article introductions and tightened opening-to-content spacing consistently on Explore, Connect, Reflections, and Products, preserving visual gradients and copy.
 
 Emergency preview fix (2026-11-18): resolved JavaScript startup crash in Reflections filter listeners by using the multi-element selector, restoring all site navigation and reflection filters.
+
+Preview refresh (2026-11-18): versioned fixed app.js to force cache refresh after navigation hotfix; startup selector typo corrected.
