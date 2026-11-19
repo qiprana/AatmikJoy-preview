@@ -1,0 +1,70 @@
+name: Preview navigation browser smoke test
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - name: Checkout exact preview feature branch
+        uses: actions/checkout@v4
+        with:
+          repository: qiprana/AatmikJoy
+          ref: feature/today-self-care-planner
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install Playwright and Chromium
+        run: |
+          npm install --no-save playwright@1.58.2
+          npx playwright install --with-deps chromium
+      - name: Test real navigation and article links in browser
+        run: |
+          node <<'JS'
+          const {chromium} = require('playwright');
+          const {spawn} = require('node:child_process');
+          (async () => {
+            const server=spawn('python3',['-m','http.server','8877','--bind','127.0.0.1'],{stdio:'inherit'});
+            const browser=await chromium.launch({headless:true});
+            const problems=[];
+            try {
+              const page=await browser.newPage({viewport:{width:1440,height:900}});
+              page.on('pageerror',e=>{console.error('JS PAGE ERROR:',e.message);problems.push(e.message)});
+              page.on('console',msg=>{if(msg.type()==='error')console.error('CONSOLE:',msg.text())});
+              await page.goto('http://127.0.0.1:8877/#/home',{waitUntil:'networkidle'});
+              console.log('HOME title:',await page.title(),'URL:',page.url());
+              const visible=async id => {const yes=await page.locator(id).isVisible();console.log('VISIBLE',id,yes);if(!yes)throw new Error(id+' not visible')};
+              await visible('#page-home');
+              for(const [label,id] of [['Explore','#page-explore'],['Reflections','#page-reflections'],['Connect','#page-connect'],['Products','#page-products'],['Home','#page-home']]){
+                await page.locator('#primary-nav').getByRole('link',{name:label,exact:true}).click({timeout:4000});
+                await visible(id);
+              }
+              await page.locator('#primary-nav').getByRole('link',{name:'Reflections',exact:true}).click();
+              await page.locator('button[data-filter="ayurveda"]').click({timeout:4000});
+              console.log('AYURVEDA CARDS',await page.locator('#reflection-grid a.reflection-card').count());
+              await page.locator('button[data-filter="all"]').click();
+              await page.locator('#reflection-grid a.reflection-card').first().click({timeout:4000});
+              console.log('ARTICLE URL',page.url());
+              if(!page.url().includes('/reflections/what-is-aatmikjoy/'))throw new Error('Article link did not navigate');
+              if(problems.length)throw new Error(problems.length+' JavaScript errors detected');
+              const mobile=await browser.newPage({viewport:{width:390,height:844},isMobile:true});
+              mobile.on('pageerror',e=>{console.error('MOBILE JS ERROR:',e.message);problems.push(e.message)});
+              await mobile.goto('http://127.0.0.1:8877/#/home',{waitUntil:'networkidle'});
+              await mobile.locator('#menu-toggle').click({timeout:4000});
+              await mobile.locator('#primary-nav').getByRole('link',{name:'Explore',exact:true}).click({timeout:4000});
+              if(!await mobile.locator('#page-explore').isVisible())throw new Error('Mobile Explore not navigated');
+              console.log('PASS: desktop and mobile navigation, filters, story links, no JavaScript errors');
+            } finally {
+              await browser.close();
+              server.kill('SIGTERM');
+            }
+          })().catch(e=>{console.error('NAVIGATION SMOKE FAILED:',e.stack||e);process.exitCode=1});
+          JS
