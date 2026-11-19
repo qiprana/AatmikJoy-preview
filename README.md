@@ -61,3 +61,5 @@ Preview refresh (2026-11-18): Reflections and Products now share the full-width 
 Preview refresh (2026-11-18): original Grandmom wording restored verbatim, Reflections heading simplified, Products project count removed, and page-header ornaments switched to the approved AatmikJoy waves.
 
 Preview refresh (2026-11-18): What is AatmikJoy is now a regular reflection article rather than a separate page; both article templates share the sage-and-ivory visual identity and updated navigation. Homepage wisdom and closing invitation copy refined.
+
+Preview refresh (2026-11-18): centered Reflections page title, original AatmikJoy wave mark and introductory copy; unified Reflections and Connect hero spacing/typography with Explore.
