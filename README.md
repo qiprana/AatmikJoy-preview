@@ -93,3 +93,5 @@ Preview hero review (2026-11-19): settled watercolor between washed-out and over
 Preview visual review (2026-11-19): softer AatmikJoy watercolor hero with restrained saturation and contrast, slight warm translucent veil and bottom-only fade. The existing hero art and other pages are unchanged.
 
 Preview hero restore (2026-11-19): restored only the original homepage hero-image styling from the user-provided AatmikJoy_seamless_transitions_all_pages_v7.html. Other layout, text, logo, and page sections are unchanged.
+
+Preview seam fix (2026-11-19): preserve uploaded-v7 homepage hero artwork and tone; extend only its lower transition so dark-green image tint blends smoothly into the following pale sage (#DEEADC) without a horizontal edge.
