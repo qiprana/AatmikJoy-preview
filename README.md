@@ -59,3 +59,5 @@ Preview refresh (2026-11-18): merged approved editorial v7 experience from featu
 Preview refresh (2026-11-18): Reflections and Products now share the full-width sage-and-ivory background transitions used by Home and Explore; card and search surfaces aligned.
 
 Preview refresh (2026-11-18): original Grandmom wording restored verbatim, Reflections heading simplified, Products project count removed, and page-header ornaments switched to the approved AatmikJoy waves.
+
+Preview refresh (2026-11-18): What is AatmikJoy is now a regular reflection article rather than a separate page; both article templates share the sage-and-ivory visual identity and updated navigation. Homepage wisdom and closing invitation copy refined.
