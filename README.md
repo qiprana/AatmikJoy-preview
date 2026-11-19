@@ -63,3 +63,5 @@ Preview refresh (2026-11-18): original Grandmom wording restored verbatim, Refle
 Preview refresh (2026-11-18): What is AatmikJoy is now a regular reflection article rather than a separate page; both article templates share the sage-and-ivory visual identity and updated navigation. Homepage wisdom and closing invitation copy refined.
 
 Preview refresh (2026-11-18): centered Reflections page title, original AatmikJoy wave mark and introductory copy; unified Reflections and Connect hero spacing/typography with Explore.
+
+Preview refresh (2026-11-18): softened the dark-green purpose section, unified AatmikJoy wave marks and editorial headings on Explore, Reflections, Connect and Products, and blended Reflections into the sage-and-ivory library background. Production unchanged.
