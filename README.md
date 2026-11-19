@@ -87,3 +87,5 @@ Preview styling (2026-11-19): balanced homepage watercolor brightness to a gentl
 Preview visual adjustment (2026-11-19): gently lightened the original watercolor hero, cropped the chalky left edge, preserved the AatmikJoy logo, and kept only a small pale-sage fade along the bottom.
 
 Preview visual update (2026-11-19): raised the homepage watercolor brightness to 1.13 and softened contrast to 0.96 while retaining the established crop, text and short bottom blend.
+
+Preview hero review (2026-11-19): settled watercolor between washed-out and overbright states with brightness 1.05, saturation .99, contrast 1.02, a modest crop, and a late soft bottom fade. Other page content unchanged.
