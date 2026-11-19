@@ -57,3 +57,5 @@ Today preview studio (2026-11-11): private emotion flush, meditation/eye-rest/al
 Preview refresh (2026-11-18): merged approved editorial v7 experience from feature/today-self-care-planner. Homepage, Explore, voice/story content, transitions and navigation; retained Today and Reflections implementations.
 
 Preview refresh (2026-11-18): Reflections and Products now share the full-width sage-and-ivory background transitions used by Home and Explore; card and search surfaces aligned.
+
+Preview refresh (2026-11-18): original Grandmom wording restored verbatim, Reflections heading simplified, Products project count removed, and page-header ornaments switched to the approved AatmikJoy waves.
